@@ -802,9 +802,10 @@ sub alphabet {
 
  Title   : is_circular
  Usage   : if( $obj->is_circular) { /Do Something/ }
- Function: Returns true if the molecule is circular
+ Function: Get/Set a 
+ 			flag that indicate if the represented molecule is circular
  Returns : Boolean value
- Args    : none
+ Args    : optional, a boolean value
 
 =cut
 
